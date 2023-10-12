@@ -28,4 +28,5 @@ production:
   username: angello
   password: 6P58vfr2bGERwAmfOv6PlwNhchtN5isp
   host: dpg-ckjcufsl4vmc73d5pqt0-a
+  port: 5432
 

@@ -11,7 +11,7 @@ class MoviesController < ApplicationController
     begin
       @movie = Movie.find(params[:id])
     rescue ActiveRecord::RecordNotFound
-      redirect_to movies_url, alert: "No existe ninguna película con ese ID"
+      redirect_to movies_url, notice: "No existe ninguna película con ese ID" 
     end
   end
 
@@ -65,7 +65,11 @@ class MoviesController < ApplicationController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_movie
-      @movie = Movie.find(params[:id])
+      begin
+        @movie = Movie.find(params[:id])
+      rescue ActiveRecord::RecordNotFound
+        redirect_to movies_url, notice: "No existe ninguna película con ese ID"
+      end
     end
 
     # Only allow a list of trusted parameters through.

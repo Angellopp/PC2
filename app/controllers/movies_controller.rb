@@ -8,6 +8,11 @@ class MoviesController < ApplicationController
 
   # GET /movies/1 or /movies/1.json
   def show
+    begin
+      @movie = Movie.find(params[:id])
+    rescue ActiveRecord::RecordNotFound
+      redirect_to movies_url, alert: "No existe ninguna película con ese ID"
+    end
   end
 
   # GET /movies/new

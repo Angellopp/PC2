@@ -8,20 +8,29 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 ## Contents
 
-<style>
-    table {
-        background-color: #99ccff;
-        border-collapse: collapse;
-        width: 100%;
-    }
-    th, td {
-        border: 1px solid #000;
-        padding: 8px;
-    }
-</style>
-
-| Column 1 | Column 2 | Column 3 |
-|----------|----------|----------|
-| R1 Text  | R2 Text A| R3 Text A|
-|          |          | R3 Text B|
-| R2 Text B| R3 Text C| R3 Text D|
+<table>
+    <thead>
+        <tr>
+            <th>Column 1</th>
+            <th>Column 2</th>
+            <th>Column 3</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan=4 align="center">R1 Text</td>
+            <td rowspan=2 align="center">R2 Text A</td>
+            <td align="center">R3 Text A</td>
+        </tr>
+        <tr>
+            <td align="center">R3 Text B</td>
+        </tr>
+        <tr>
+            <td rowspan=2 align="center">R2 Text B</td>
+            <td align="center">R3 Text C</td>
+        </tr>
+        <tr>
+            <td align="center">R3 Text D</td>
+        </tr>
+    </tbody>
+</table>

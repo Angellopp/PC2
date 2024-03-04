@@ -60,6 +60,16 @@
             <th>Tags</th>
         </tr>
     </thead>
+    <tbody>
+        <tr>
+          <td align='center'>170</td>
+          <td rowspan=1 align='center'>1938</td>
+          <td align='left'><a href='https://codeforces.com/contest/1938/problem/H'>H - Pho Restaurant</a></td>
+          <td align='center'><a href='./codeforces/1938/H.cpp'>GNU C++20 (64)</a></td>
+          <td align='center'></td>
+          <td align='center'></td>
+        </tr>
+   </tbody>
 </table>
 			</div>
     </div>

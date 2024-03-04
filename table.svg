@@ -30,37 +30,36 @@
 			</style>
       <div class="container">
 <table>
-        <tr>
-            <th>#</th>
-            <th>Contest</th>
-            <th>Title</th>
-            <th>Solution</th>
-            <th>Rating</th>
-            <th>Tags</th>
-        </tr>
-        <tr>
-          <td align="center">170</td>
-          <td rowspan="2">170</td>
-          <td>170</td>
-          <td>170</td>
-          <td>170</td>
-          <td>170</td>
-        </tr>
-        <tr>
-          <td>170</td>
-          <td>170</td>
-          <td>170</td>
-          <td>170</td>
-          <td>170</td>
-        </tr>
-        <tr>
-          <td>170</td>
-          <td>170</td>
-          <td>170</td>
-          <td>170</td>
-          <td>170</td>
-          <td>170</td>
-        </tr>
+     <tr>
+        <th>#</th>
+        <th>Contest</th>
+        <th>Title</th>
+        <th>Solution</th>
+        <th>Rating</th>
+        <th>Tags</th>
+    </tr>
+    <tr>
+        <td align="center">93</td>
+        <td rowspan=3 align="center">1933</td>
+        <td align="left"><a href='https://codeforces.com/contest/1933/problem/A'>A - Turtle Puzzle: Rearrange and Negate</a></td>
+        <td align="center">GNU C++20 (64)</td>
+        <td align="center">1000</td>
+        <td align="center">`greedy` `math` `sortings`</td>
+    </tr>
+    <tr>
+        <td align="center">92</td>
+        <td align="left"><a href='https://codeforces.com/contest/1933/problem/B'>B - Turtle Math: Fast Three Task</a></td>
+        <td align="center">GNU C++20 (64)</td>
+        <td align="center">1000</td>
+        <td align="center">`greedy` `math` `sortings`</td>
+    </tr>
+    <tr>
+        <td align="center">91</td>
+        <td align="left"><a href='https://codeforces.com/contest/1933/problem/C'>C - Turtle Fingers: Count the Values of k</a></td>
+        <td align="center">GNU C++20 (64)</td>
+        <td align="center">1000</td>
+        <td align="center">`greedy` `math` `sortings`</td>
+    </tr>
 </table>
 			</div>
     </div>

@@ -6,33 +6,42 @@ Submissions
 A repository to keep track of problem solving practice, containing solutions from platforms:
 * Codeforces &nbsp; <a href='https://codeforces.com/profile/Nayperlamp'><img src='https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codeforces.svg' width='25' height='25'></a>
 
+
 ## Contents
-<div style="text-align:center;">
 
 <table>
     <thead>
         <tr>
-            <th>Column 1</th>
-            <th>Column 2</th>
-            <th>Column 3</th>
+            <th>#</th>
+            <th>Contest</th>
+            <th>Title</th>
+            <th>Solution</th>
+            <th>Rating</th>
+            <th>Tags</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td rowspan=4 align="center">R1 Text</td>
-            <td rowspan=2 align="center">R2 Text A</td>
-            <td align="center">R3 Text A</td>
+            <td rowspan=1 align="center">93</td>
+            <td rowspan=3 align="center">1933</td>
+            <td rowspan=1 align="center"><a href='https://codeforces.com/contest/1933/problem/A'>A - Turtle Puzzle: Rearrange and Negate</a></td>
+            <td rowspan=1 align="center">GNU C++20 (64)</td>
+            <td rowspan=1 align="center">1000</td>
+            <td rowspan=1 align="center">`greedy` `math` `sortings`</td>
         </tr>
         <tr>
-            <td align="center">R3 Text B</td>
+            <td rowspan=1 align="center">92</td>
+            <td rowspan=1 align="center"><a href='https://codeforces.com/contest/1933/problem/B'>B - Turtle Math: Fast Three Task</a></td>
+            <td rowspan=1 align="center">GNU C++20 (64)</td>
+            <td rowspan=1 align="center">1000</td>
+            <td rowspan=1 align="center">`greedy` `math` `sortings`</td>
         </tr>
         <tr>
-            <td rowspan=2 align="center">R2 Text B</td>
-            <td align="center">R3 Text C</td>
-        </tr>
-        <tr>
-            <td align="center">R3 Text D</td>
+            <td rowspan=1 align="center">91</td>
+            <td rowspan=1 align="center"><a href='https://codeforces.com/contest/1933/problem/C'>C - Turtle Fingers: Count the Values of k</a></td>
+            <td rowspan=1 align="center">GNU C++20 (64)</td>
+            <td rowspan=1 align="center">1000</td>
+            <td rowspan=1 align="center">`greedy` `math` `sortings`</td>
         </tr>
     </tbody>
 </table>
-</div>

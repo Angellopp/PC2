@@ -38,7 +38,7 @@
         <th>Rating</th>
         <th>Tags</th>
     </tr>
-    <tr>
+<!--     <tr>
         <td align="center">93</td>
         <td rowspan=3 align="center">1933</td>
         <td align="left"><a href='https://codeforces.com/contest/1933/problem/A'>A - Turtle Puzzle: Rearrange and Negate</a></td>
@@ -59,7 +59,7 @@
         <td align="center">GNU C++20 (64)</td>
         <td align="center">1000</td>
         <td align="center">`greedy` `math` `sortings`</td>
-    </tr>
+    </tr> -->
 </table>
 			</div>
     </div>

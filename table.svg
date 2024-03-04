@@ -50,7 +50,6 @@
 			</style>
       <div class="container">
 <table>
-    <thead>
         <tr>
             <th>#</th>
             <th>Contest</th>
@@ -59,8 +58,6 @@
             <th>Rating</th>
             <th>Tags</th>
         </tr>
-    </thead>
-    <tbody>
         <tr>
           <td align='center'>170</td>
           <td rowspan=1 align='center'>1938</td>
@@ -69,7 +66,6 @@
           <td align='center'></td>
           <td align='center'></td>
         </tr>
-   </tbody>
 </table>
 			</div>
     </div>

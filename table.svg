@@ -18,6 +18,9 @@
                 .problems .light {
                     background-color: #ffffff;
                 }
+                .problems .name {
+                  white-space: nowrap;
+                }
                 td, th {
                     padding: 0.4em;
                 }
@@ -25,9 +28,8 @@
                     color: #0000cc;
                     display: flex;
                     align-items: center;
-justify-content: center;
+                    justify-content: center;
 		                font-weight: bold;
-
                     margin: 2px;
                     padding: 2px 3px 2px 3px;
                     background-color: #f0f0f0;

@@ -1,9 +1,9 @@
-<svg fill="none" viewBox="0 0 1200 2400" width="1200" height="2400" xmlns="http://www.w3.org/2000/svg">
+<svg fill="none" viewBox="0 0 1100 2400" width="1100" height="2400" xmlns="http://www.w3.org/2000/svg">
 	<foreignObject width="100%" height="100%">
 		<div xmlns="http://www.w3.org/1999/xhtml">
             <style>
                 .container{
-		    background-color: #e1e1e1;
+		            background-color: #e1e1e1;
                 }
 				.problems {
 					font-family: verdana, arial, sans-serif;
@@ -18,12 +18,17 @@
                 .problems .light {
                     background-color: #ffffff;
                 }
-                .problems .left {
-                    border-left: none;
+                td, th {
+                    padding: 0.4em;
                 }
-		td, th {
-		    padding: 0.4em;    
-		}
+                code {
+                    color: #0000cc;
+		            font-weight: bold;
+                    margin: 2px;
+                    padding: 0 3px 2px 3px;
+                    background-color: #f0f0f0;
+                    border: 1px solid #b9b9b9;
+                }
 			</style>
             <div class="container">
                 <table class="problems">
@@ -51,7 +56,7 @@
                             <td align='left'><a href="https://codeforces.com/contest/1937/problem/B">B - Binary Path</a></td>
                             <!-- <td align='center'><a href='./codeforces/1937/B.cpp'>GNU C++20 (64)</a></td> -->
                             <td class='solution' align='center'>?</td>
-                            <td align='center'>`dp` `greedy` `implementation`</td>
+                            <td align='center'><code>dp greedy implementation</code></td>
                         </tr>
                         <tr class='light'>
                             <td align='center'>168</td>
@@ -70,7 +75,7 @@
                         </tr>
                         <tr class='light'>
                             <td align='center'>166</td>
-                            <td align='left'><a href='https://codeforces.com/contest/1933/problem/C'>C - Turtle Fingers: Count the Values of k</a></td>
+                            <td align='left' style="white-space: nowrap;"><a href='https://codeforces.com/contest/1933/problem/C'>C - Turtle Fingers: Count the Values of k</a></td>
                             <!-- <td align='center'><a href='./codeforces/1933/C.cpp'>GNU C++20 (64)</a></td> -->
                             <td class='solution' align='center'>?</td>
                             <td align='center'>`brute force` `implementation` `math` `number theory`</td>

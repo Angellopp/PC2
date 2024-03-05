@@ -23,11 +23,31 @@
                 }
                 code {
                     color: #0000cc;
-		            font-weight: bold;
+                    display: flex;
+                    align-items: center;
+justify-content: center;
+		                font-weight: bold;
+
                     margin: 2px;
-                    padding: 0 3px 2px 3px;
+                    padding: 2px 3px 2px 3px;
                     background-color: #f0f0f0;
                     border: 1px solid #b9b9b9;
+                    border-bottom-left-radius: 6px;
+                    border-bottom-right-radius: 6px;
+                    border-top-left-radius: 6px;
+                    border-top-right-radius: 6px;
+                }
+                .bole {
+                    border-bottom-left-radius: 6px;
+                }
+                .bori {
+                    border-bottom-right-radius: 6px;
+                }
+                .tole {
+                    border-top-left-radius: 6px;
+                }
+                .tori {
+                    border-top-right-radius: 6px;
                 }
 			</style>
             <div class="container">

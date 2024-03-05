@@ -49,7 +49,7 @@
                         <tr class='dark'>
                             <td align='center'>169</td>
                             <td rowspan='1' align='center'>1937</td>
-                            <td align='left'><a href='https://codeforces.com/contest/1937/problem/B'>B - Binary Path</a></td>
+                            <td align='left'><a href="https://codeforces.com/contest/1937/problem/B">B - Binary Path</a></td>
                             <!-- <td align='center'><a href='./codeforces/1937/B.cpp'>GNU C++20 (64)</a></td> -->
                             <td class='solution' align='center'>?</td>
                             <td align='center'>`dp` `greedy` `implementation`</td>
@@ -57,7 +57,7 @@
                         <tr class='light'>
                             <td align='center'>168</td>
                             <td rowspan='5' align='center'>1933</td>
-                            <td align='left'><a href='https://codeforces.com/contest/1933/problem/A'>A - Turtle Puzzle: Rearrange and Negate</a></td>
+                            <td align='left'><a href="https://codeforces.com/contest/1933/problem/A">A - Turtle Puzzle: Rearrange and Negate</a></td>
                             <!-- <td align='center'><a href='./codeforces/1933/A.cpp'>GNU C++20 (64)</a></td> -->
                             <td class='solution' align='center'>?</td>
                             <td align='center'>`greedy` `math` `sortings`</td>

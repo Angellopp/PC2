@@ -3,7 +3,6 @@
 		<div xmlns="http://www.w3.org/1999/xhtml">
             <style>
                 .container{
-                    background-color: #E1E1E1; padding-bottom: 3px;
                 }
 				.problems {
 					font-family: verdana, arial, sans-serif;
@@ -12,6 +11,9 @@
 	      	        color: #0a0; 
 	      	        font-weight: bold;
 	            }
+		.problems .header {
+                    background-color: #e1e1e1;
+                }
                 .problems .dark {
                     background-color: #f8f8f8;
                 }
@@ -23,13 +25,15 @@
                 }
                 .problems td, problems th {
                     border-top: 1px solid #e1e1e1;
+                    border-bottom: 1px solid #e1e1e1;
                     border-right: 1px solid #e1e1e1;
+                    border-left: 1px solid #e1e1e1;
                 }
 			</style>
             <div class="container">
                 <table class="problems">
                     <thead>
-                        <tr>
+                        <tr class='header'>
                             <th>#</th>
                             <th>Contest</th>
                             <th>Title</th>

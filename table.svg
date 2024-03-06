@@ -1,56 +1,56 @@
-<svg fill="none" viewBox="0 0 1100 2400" width="1100" height="2400" xmlns="http://www.w3.org/2000/svg">
+<svg fill="none" viewBox="0 0 1000 500" width="1000" height="500" xmlns="http://www.w3.org/2000/svg">
 	<foreignObject width="100%" height="100%">
 		<div xmlns="http://www.w3.org/1999/xhtml">
             <style>
                 .container{
-		            background-color: #e1e1e1;
-                }
-				.problems {
-					font-family: verdana, arial, sans-serif;
-				}
-	            .solution {
-	      	        color: #0a0; 
-	      	        font-weight: bold;
-	            }
-                .problems .dark {
-                    background-color: #f8f8f8;
-                }
-                .problems .light {
-                    background-color: #ffffff;
-                }
-                .problems .name {
-                  white-space: nowrap;
-                }
-                td, th {
-                    padding: 0.4em;
-                }
-                code {
-                    color: #0000cc;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-		                font-weight: bold;
-                    margin: 2px;
-                    padding: 2px 3px 2px 3px;
-                    background-color: #f0f0f0;
-                    border: 1px solid #b9b9b9;
-                    border-bottom-left-radius: 6px;
-                    border-bottom-right-radius: 6px;
-                    border-top-left-radius: 6px;
-                    border-top-right-radius: 6px;
-                }
-                .bole {
-                    border-bottom-left-radius: 6px;
-                }
-                .bori {
-                    border-bottom-right-radius: 6px;
-                }
-                .tole {
-                    border-top-left-radius: 6px;
-                }
-                .tori {
-                    border-top-right-radius: 6px;
-                }
+    background-color: #e1e1e1;
+}
+.problems {
+    font-family: verdana, arial, sans-serif;
+}
+.solution {
+      color: #0a0; 
+      font-weight: bold;
+}
+.problems .dark {
+    background-color: #f8f8f8;
+}
+.problems .light {
+    background-color: #ffffff;
+}
+.problems .name {
+  white-space: nowrap;
+}
+td, th {
+    padding: 0.4em;
+}
+code {
+    color: #0000cc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        font-weight: bold;
+    margin: 2px;
+    padding: 2px 3px 2px 3px;
+    background-color: #f0f0f0;
+    border: 1px solid #b9b9b9;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.bole {
+    border-bottom-left-radius: 6px;
+}
+.bori {
+    border-bottom-right-radius: 6px;
+}
+.tole {
+    border-top-left-radius: 6px;
+}
+.tori {
+    border-top-right-radius: 6px;
+}
 			</style>
             <div class="container">
                 <table class="problems">
@@ -64,109 +64,60 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr class='light'>
-                            <td align='center' style='border-top-left-radius: 6px;'>170</td>
-                            <td rowspan='1' align='center'>1938</td>
-                            <td align='left'><a href='https://codeforces.com/contest/1938/problem/H'>H - Pho Restaurant</a></td>
-                            <!-- <td align='center'><a href='./codeforces/1938/H.cpp'>GNU C++20 (64)</a></td> -->
-                            <td class='solution' align='center'>?</td>
-                            <td align='center'></td>
-                        </tr>
-                        <tr class='dark'>
-                            <td align='center'>169</td>
-                            <td rowspan='1' align='center'>1937</td>
-                            <td align='left'><a href="https://codeforces.com/contest/1937/problem/B">B - Binary Path</a></td>
-                            <!-- <td align='center'><a href='./codeforces/1937/B.cpp'>GNU C++20 (64)</a></td> -->
-                            <td class='solution' align='center'>?</td>
-                            <td align='center'><code>dp greedy implementation</code></td>
-                        </tr>
-                        <tr class='light'>
-                            <td align='center'>168</td>
-                            <td rowspan='5' align='center'>1933</td>
-                            <td align='left'><a href="https://codeforces.com/contest/1933/problem/A">A - Turtle Puzzle: Rearrange and Negate</a></td>
-                            <!-- <td align='center'><a href='./codeforces/1933/A.cpp'>GNU C++20 (64)</a></td> -->
-                            <td class='solution' align='center'>?</td>
-                            <td align='center'>`greedy` `math` `sortings`</td>
-                        </tr>
-                        <tr class='dark'>
-                            <td align='center'>167</td>
-                            <td align='left'><a href='https://codeforces.com/contest/1933/problem/B'>B - Turtle Math: Fast Three Task</a></td>
-                            <!-- <td align='center'><a href='./codeforces/1933/B.cpp'>GNU C++20 (64)</a></td> -->
-                            <td class='solution' align='center'>?</td>
-                            <td align='center'>`implementation` `math` `number theory`</td>
-                        </tr>
-                        <tr class='light'>
-                            <td align='center'>166</td>
-                            <td align='left' style="white-space: nowrap;"><a href='https://codeforces.com/contest/1933/problem/C'>C - Turtle Fingers: Count the Values of k</a></td>
-                            <!-- <td align='center'><a href='./codeforces/1933/C.cpp'>GNU C++20 (64)</a></td> -->
-                            <td class='solution' align='center'>?</td>
-                            <td align='center'>`brute force` `implementation` `math` `number theory`</td>
-                        </tr>
-                        <tr class='dark'>
-                            <td align='center'>165</td>
-                            <td align='left'><a href='https://codeforces.com/contest/1933/problem/D'>D - Turtle Tenacity: Continual Mods</a></td>
-                            <!-- <td align='center'><a href='./codeforces/1933/D.cpp'>GNU C++20 (64)</a></td> -->
-                            <td class='solution' align='center'>?</td>
-                            <td align='center'>`constructive algorithms` `greedy` `math` `number theory` `sortings`</td>
-                        </tr>
-                        <tr class='light'>
-                            <td align='center'>164</td>
-                            <td align='left'><a href='https://codeforces.com/contest/1933/problem/E'>E - Turtle vs. Rabbit Race: Optimal Trainings</a></td>
-                            <!-- <td align='center'><a href='./codeforces/1933/E.cpp'>GNU C++20 (64)</a></td> -->
-                            <td class='solution' align='center'>?</td>
-                            <td align='center'>`binary search` `implementation` `math` `ternary search`</td>
-                        </tr>
-                        <tr class='dark'>
-                            <td align='center'>163</td>
-                            <td rowspan='5' align='center'>1932</td>
-                            <td align='left'><a href='https://codeforces.com/contest/1932/problem/A'>A - Thorns and Coins</a></td>
-                            <!-- <td align='center'><a href='./codeforces/1932/A.cpp'>GNU C++20 (64)</a></td> -->
-                            <td class='solution' align='center'>?</td>
-                            <td align='center'>`dp` `greedy` `implementation`</td>
-                        </tr>
-                        <tr class='light'>
-                            <td align='center'>162</td>
-                            <td align='left'><a href='https://codeforces.com/contest/1932/problem/B'>B - Chaya Calendar</a></td>
-                            <!-- <td align='center'><a href='./codeforces/1932/B.cpp'>GNU C++20 (64)</a></td> -->
-                            <td class='solution' align='center'>?</td>
-                            <td align='center'>`number theory`</td>
-                        </tr>
-                        <tr class='dark'>
-                            <td align='center'>161</td>
-                            <td align='left'><a href='https://codeforces.com/contest/1932/problem/C'>C - LR-remainders</a></td>
-                            <!-- <td align='center'><a href='./codeforces/1932/C.cpp'>GNU C++20 (64)</a></td> -->
-                            <td class='solution' align='center'>?</td>
-                            <td align='center'>`brute force` `data structures` `implementation` `math` `two pointers`</td>
-                        </tr>
-                        <tr class='light'>
-                            <td align='center'>160</td>
-                            <td align='left'><a href='https://codeforces.com/contest/1932/problem/D'>D - Card Game</a></td>
-                            <!-- <td align='center'><a href='./codeforces/1932/D.cpp'>GNU C++20 (64)</a></td> -->
-                            <td class='solution' align='center'>?</td>
-                            <td align='center'>`greedy` `implementation`</td>
-                        </tr>
-                        <tr class='dark'>
-                            <td align='center'>159</td>
-                            <td align='left'><a href='https://codeforces.com/contest/1932/problem/E'>E - Final Countdown</a></td>
-                            <!-- <td align='center'><a href='./codeforces/1932/E.cpp'>GNU C++20 (64)</a></td> -->
-                            <td class='solution' align='center'>?</td>
-                            <td align='center'>`implementation` `math` `number theory`</td>
-                        </tr>
-                        <tr class='light'>
-                            <td align='center'>158</td>
-                            <td rowspan='5' align='center'>1931</td>
-                            <td align='left'><a href='https://codeforces.com/contest/1931/problem/A'>A - Recovering a Small String</a></td>
-                            <!-- <td align='center'><a href='./codeforces/1931/A.cpp'>GNU C++20 (64)</a></td> -->
-                            <td class='solution' align='center'>800</td>
-                            <td align='center'>`brute force` `strings`</td>
-                        </tr>
-                        <tr class='dark'>
-                            <td align='center'>157</td>
-                            <td align='left'><a href='https://codeforces.com/contest/1931/problem/B'>B - Make Equal</a></td>
-                            <!-- <td align='center'><a href='./codeforces/1931/B.cpp'>GNU C++20 (64)</a></td> -->
-                            <td class='solution' align='center'>800</td>
-                            <td align='center'>`greedy`</td>
-                        </tr>
+                            <tr class='light'>
+          <td class='tole' align='center'>8</td>
+          <td rowspan='1' align='center'>1938</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/1938/problem/H'>H - Pho Restaurant</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1938/submission/249234576'>?</a></td>
+          <td class='tori' align='center'><div style='display: flex; justify-content: center;'></div></td>
+        </tr>
+        <tr class='dark'>
+          <td align='center'>7</td>
+          <td rowspan='1' align='center'>1937</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/1937/problem/B'>B - Binary Path</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1937/submission/248989551'>?</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>dp</code> <code>greedy</code> <code>implementation</code></div></td>
+        </tr>
+        <tr class='light'>
+          <td align='center'>6</td>
+          <td rowspan='3' align='center'>1933</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/1933/problem/C'>C - Turtle Fingers: Count the Values of k</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1933/submission/248546869'>?</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>brute force</code> <code>implementation</code> <code>math</code> <code>number theory</code></div></td>
+        </tr>
+        <tr class='dark'>
+          <td align='center'>5</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/1933/problem/D'>D - Turtle Tenacity: Continual Mods</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1933/submission/248634950'>?</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>constructive algorithms</code> <code>greedy</code> <code>math</code> <code>number theory</code> <code>sortings</code></div></td>
+        </tr>
+        <tr class='dark'>
+          <td align='center'>4</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/1933/problem/E'>E - Turtle vs. Rabbit Race: Optimal Trainings</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1933/submission/248611394'>?</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>binary search</code> <code>implementation</code> <code>math</code> <code>ternary search</code></div></td>
+        </tr>
+        <tr class='light'>
+          <td align='center'>3</td>
+          <td rowspan='1' align='center'>1905</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/1905/problem/C'>C - Largest Subsequence</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1905/submission/248788111'>1400</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>greedy</code> <code>strings</code></div></td>
+        </tr>
+        <tr class='light'>
+          <td align='center'>2</td>
+          <td rowspan='1' align='center'>1807</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/1807/problem/F'>F - Bouncy Ball</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1807/submission/249183326'>1700</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>brute force</code> <code>dfs and similar</code> <code>implementation</code></div></td>
+        </tr>
+        <tr class='dark'>
+          <td class='bole' align='center'>1</td>
+          <td rowspan='1' align='center'>1749</td>
+          <td class='name' align='left'><a href='https://codeforces.com/contest/1749/problem/C'>C - Number Game</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1749/submission/249030501'>1400</a></td>
+          <td class='bori' align='center'><div style='display: flex; justify-content: center;'><code>binary search</code> <code>data structures</code> <code>games</code> <code>greedy</code> <code>implementation</code></div></td>
+        </tr>
                     </tbody>
                 </table>
             </div>

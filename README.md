@@ -9,10 +9,10 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 ## Contents
 
-<div align="center">
+<div align="center" style="width: 100%;">
 	<br>
 	<a href='https://raw.githubusercontent.com/Angellopp/PC2/f681086ca6bcd0118ecaee0f17651b6c6f6ddd88/table.svg'>
-		<img src="table.svg" width="2000" height="4828" alt="Click to see the source">
+		<img src="table.svg" style="width: 100%; height=4828;" alt="Click to see the source">
 	</a>
 	<br>
 </div>

@@ -11,8 +11,8 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 <div align="center">
 	<br>
-	<a href='https://raw.githubusercontent.com/Angellopp/PC2/8718ef9fe3eae2afa1116068600a152ab299b549/table.svg'>
-		<img src="table.svg" width="1000" height="4828" alt="Click to see the source">
+	<a href='https://raw.githubusercontent.com/Angellopp/PC2/ebe846c04ce0f17856cf33931e278a860130062b/table.svg'>
+		<img src="table.svg" width="2000" height="4828" alt="Click to see the source">
 	</a>
 	<br>
 </div>
